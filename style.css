@@ -16,6 +16,7 @@ h1{
 }
 .half-width img{
     width: 100%;
+    height: auto;
 
 }
 .top-banner{
@@ -43,3 +44,52 @@ h2{
    color: black; 
    text-align: center;
 }
+
+
+
+  .container{
+      max-width: 200px;
+      margin: auto;
+      
+      background: #007bbf;
+      overflow: auto;
+      
+  }
+  .gallery{
+      margin: 15px;
+      border: 10px solid rgb(204, 204, 204);
+      float: left;
+      width: 350px;
+      
+  }
+    .gallery img{
+        width: 100%;
+        height: auto;
+    }
+    .desc{
+        padding: 10px;
+        text-align: center;
+    }
+    .toktoki{
+        color: blueviolet;
+        text-align:center ;
+        float:left;
+    
+    }
+    #box1{
+        height: 90px;
+        width: 300px;
+        background-color: red;
+        color:white;
+        text-align: center;
+        float:right;
+    }
+    .shakib{
+        color: black;
+        font: size 80%;
+    }
+    .sd{
+        color:green;
+        text-align: center;
+        ;
+    }
